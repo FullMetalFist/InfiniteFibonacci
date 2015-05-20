@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-InfiniteFibonacciTests-Expecta.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-InfiniteFibonacciTests-KIF.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-InfiniteFibonacciTests-Specta.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-InfiniteFibonacciTests-Swizzlean.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-InfiniteFibonacciTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2FB14690F06E4E7C9EB35C1E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4E8B537F595E4BC7AE0820E8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>812238BF7A06F5F83A984884</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B6D87AE1F09FD086AAD8E97B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DBD3E079D8F0F32D493B99A4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

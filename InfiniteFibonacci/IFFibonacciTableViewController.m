@@ -11,7 +11,8 @@
 
 @interface IFFibonacciTableViewController ()
 
-@property (nonatomic) NSMutableArray *scrollHelp;
+//@property (nonatomic) NSMutableArray *scrollHelp;
+@property (nonatomic) NSUInteger scrollHelp;
 
 @end
 
@@ -21,9 +22,9 @@ static NSString *CellId = @"CellId";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.scrollHelp = [NSMutableArray array];
-    [self.scrollHelp addObjectsFromArray:@[@0,@1,@2,@3,@4,@5,@6,@7,@8,@9]];
+    self.scrollHelp = 24;
+//    self.scrollHelp = [NSMutableArray array];
+//    [self.scrollHelp addObjectsFromArray:@[@0,@1,@2,@3,@4,@5,@6,@7,@8,@9]];
 }
 
 
@@ -42,7 +43,7 @@ static NSString *CellId = @"CellId";
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return self.scrollHelp.count;
+    return self.scrollHelp;
 }
 
 
@@ -65,7 +66,8 @@ static NSString *CellId = @"CellId";
     CGFloat actualPosition = scrollView.contentOffset.y;
     CGFloat contentHeight = scrollView.contentSize.height - self.tableView.frame.size.height;
     if (actualPosition >= contentHeight) {
-        [self.scrollHelp addObjectsFromArray:self.scrollHelp];
+        self.scrollHelp += self.scrollHelp;
+//        [self.scrollHelp addObjectsFromArray:self.scrollHelp];
         [self.tableView reloadData];
     }
 }

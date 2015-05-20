@@ -10,6 +10,6 @@
 
 @interface IFFiboFinder : NSObject
 
-- (NSUInteger) findFiboNumber:(NSInteger)someNumber;
+- (unsigned long long) findFiboNumber:(NSInteger)someNumber;
 
 @end

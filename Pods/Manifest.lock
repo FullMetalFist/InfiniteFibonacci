@@ -1,0 +1,21 @@
+PODS:
+  - Expecta (1.0.0)
+  - KIF (3.2.2):
+    - KIF/XCTest (= 3.2.2)
+  - KIF/XCTest (3.2.2)
+  - Specta (1.0.0)
+  - Swizzlean (0.2.0)
+
+DEPENDENCIES:
+  - Expecta
+  - KIF
+  - Specta
+  - Swizzlean
+
+SPEC CHECKSUMS:
+  Expecta: 32604574add2c46a36f8d2f716b6c5736eb75024
+  KIF: b0bd762b0c7890b04920cf618021d6d4fd5127bd
+  Specta: 96fe05fe5c7348b5223f85e862904f6e832abb14
+  Swizzlean: 6ef3e5a33063b7cd99dc39f8c55164dc55d9a021
+
+COCOAPODS: 0.37.1
